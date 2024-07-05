@@ -10,7 +10,7 @@ name: Upload Python Package
 
 on:
   push:
-  branches: [main]
+    branches: [master]
   release:
     types: [published]
 
@@ -30,9 +30,9 @@ jobs:
         python-version: '3.11'
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-        python -m pip install --upgrade pip
-        pip install build
+        pip install -r requirement.txt
+        pip install --upgrade pip
+        
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html
@@ -50,4 +50,4 @@ jobs:
       with:
           name: test-results
           path: pytest-report/report.html
-          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to warn
+          if-no-files-found:
