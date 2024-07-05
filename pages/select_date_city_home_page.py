@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 
 from selenium.webdriver import Keys
 from selenium.webdriver.common import keys
@@ -36,7 +37,6 @@ class Home_page:
     click_on_pay_now_css = "a[class='btnContinuePayment primaryBtn capText  ']"
     hotel_name_on_pay_page_css = "div h3"
     dates_on_pay_now_page_css = "p[class='prptChk__date']"
-
 
 
     def __init__(self, driver):
@@ -82,22 +82,22 @@ class Home_page:
         self.driver.find_element(By.ID,  self.click_search_btn_id).click()
         self.logs.info(f"Element is {self.click_search_btn_id} click on search button")
 
-    def hotels_names(self):
+    def hotels_names(self,hotel_name):
         self.contains_all_hotesl_name = []
         self.hotels = self.driver.find_elements(By.ID, self.all_hotels_names_id)
         for self.hotel in self.hotels:
             time.sleep(2)
             self.contains_all_hotesl_name.append(self.hotel.text)
-            if self.hotel.text == "Blanket Hotel & Spa Munnar":
+            if self.hotel.text == hotel_name:
                 self.hotel.click()
         print(self.contains_all_hotesl_name)
         self.logs.info(f"Elements is {self.all_hotels_names_id} all hotels name are in one list and its compare the hotel taht which user want")
 
 
     def select_fileters(self):
-        time.sleep(2)
+        self.driver.implicitly_wait(10)
         self.driver.find_element(By.XPATH,  self.breckfast_xpath).click()
-        time.sleep(2)
+
         self.driver.execute_script("window.scrollBy(0,500)")
         time.sleep(4)
         self.driver.find_element(By.XPATH, self.ratings_xpath).click()
@@ -116,11 +116,11 @@ class Home_page:
         self.driver.find_element(By.CSS_SELECTOR,  self.button_book_now_css).click()
         self.logs.info(f"Element is {self.button_book_now_css} click on book now button")
 
-    def enter_guest_details(self):
-        self.driver.find_element(By.ID,self.name_id).send_keys("Piyush")
-        self.driver.find_element(By.ID, self.l_name_id).send_keys("dravyakar")
-        self.driver.find_element(By.ID, self.email_id).send_keys("dravyakar@gmail.com")
-        self.driver.find_element(By.ID, self.mobile_no_id).send_keys("8411878794")
+    def enter_guest_details(self,name,l_name,email,mobile_no):
+        self.driver.find_element(By.ID,self.name_id).send_keys(name)
+        self.driver.find_element(By.ID, self.l_name_id).send_keys(l_name)
+        self.driver.find_element(By.ID, self.email_id).send_keys(email)
+        self.driver.find_element(By.ID, self.mobile_no_id).send_keys(mobile_no)
         self.driver.find_element(By.CSS_SELECTOR, self.check_box_css).click()
         self.logs.info("Enter the guest user details name,last name,email and mobile number")
 
@@ -137,6 +137,15 @@ class Home_page:
             self.all_date.append(self.date.text)
 
         self.logs.info(f"Element is {self.dates_on_pay_now_page_css} and its hold the dates on pay now page")
+
+
+
+
+
+
+
+
+
 
 
 
