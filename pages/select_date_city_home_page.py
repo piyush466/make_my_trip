@@ -125,6 +125,7 @@ class Home_page:
         if self.driver.title == "Blanket Hotel & Spa Munnar | Hotel Details Page | MakeMyTrip.co":
             self.logs.info("Title is match")
         else:
+            raise Exception
             self.logs.error("Title is not match")
         self.logs.info("Switching the windows")
 
