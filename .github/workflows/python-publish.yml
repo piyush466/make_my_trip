@@ -6,10 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Selenium Package
+name: Upload Python Package
 
 on:
-  branches: [master]
+  push:
+    branches: [main]
   release:
     types: [published]
 
@@ -26,23 +27,22 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'
+        python-version: '3.11'
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install -r requirements.txt
-        
+        python -m pip install --upgrade pip
+        pip install build
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html
-
-
 
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
+
 
     - name: Upload test artifacts
       uses: actions/upload-artifact@v2
