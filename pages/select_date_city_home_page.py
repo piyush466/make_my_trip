@@ -4,8 +4,11 @@ from selenium.webdriver import Keys
 from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 
+from Utilities.generates_logs import LogGen
+
 
 class Home_page:
+    logs = LogGen.logger()
 
     hotel_click_class_name = "menu_Hotels"
     select_city_id = "city"
@@ -15,6 +18,7 @@ class Home_page:
     set_check_in_dates = "div[aria-label='Sun Jul 28 2024']"
     set_check_out_date = "div[aria-label='Wed Jul 31 2024']"
     apply_button_css = "primaryBtn b"
+    apply_button = "[data-cy='HotelSearchWidget_310']"
     price_per_night_xpath = "//span[text()='Price per Night']"
     select_rent_of_room_xpath = "//li[text()='₹5000+']"
     click_search_btn_id = "hsw_search_button"
@@ -31,6 +35,7 @@ class Home_page:
     check_box_css = "span[class='checkboxWpr'] b"
     click_on_pay_now_css = "a[class='btnContinuePayment primaryBtn capText  ']"
     hotel_name_on_pay_page_css = "div h3"
+    dates_on_pay_now_page_css = "p[class='prptChk__date']"
 
 
 
@@ -40,6 +45,7 @@ class Home_page:
 
     def click_hotels(self):
         self.driver.find_element(By.CLASS_NAME, self.hotel_click_class_name).click()
+        self.logs.info(f"Element is {self.hotel_click_class_name} and click on Hotel")
 
     def city_select(self, city):
         self.driver.find_element(By.ID, self.select_city_id).click()
@@ -47,28 +53,34 @@ class Home_page:
         self.data.send_keys(city)
         time.sleep(2)
         self.driver.find_element(By.XPATH, self.select_city_from_drop_down_xpath).click()
+        self.logs.info(f"Element is {self.select_city_from_drop_down_xpath}, and its selecting the city")
 
 
     def select_check_in_dates(self):
         self.driver.find_element(By.CSS_SELECTOR, self.set_check_in_dates).click()
+        self.logs.info(f"Element is {self.set_check_in_dates} and selecting the check in date")
 
 
     def select_check_out_date(self):
         time.sleep(2)
         self.driver.find_element(By.CSS_SELECTOR, self.set_check_out_date).click()
+        self.logs.info(f"Element is {self.set_check_out_date} and selecting the check out date")
 
 
     def click_apply_btn(self):
-        self.driver.find_element(By.CSS_SELECTOR, "[data-cy='HotelSearchWidget_310']").click()
+        self.driver.find_element(By.CSS_SELECTOR, self.apply_button).click()
+        self.logs.info(f"Element is {self.apply_button} click on apply")
         time.sleep(2)
 
     def select_price_per_night(self):
         self.driver.find_element(By.XPATH, self.price_per_night_xpath).click()
         self.driver.find_element(By.XPATH, self.select_rent_of_room_xpath).click()
+        self.logs.info(f"Element is {self.select_rent_of_room_xpath} select the price per night ")
         time.sleep(2)
 
     def click_on_search_btn(self):
         self.driver.find_element(By.ID,  self.click_search_btn_id).click()
+        self.logs.info(f"Element is {self.click_search_btn_id} click on search button")
 
     def hotels_names(self):
         self.contains_all_hotesl_name = []
@@ -79,6 +91,8 @@ class Home_page:
             if self.hotel.text == "Blanket Hotel & Spa Munnar":
                 self.hotel.click()
         print(self.contains_all_hotesl_name)
+        self.logs.info(f"Elements is {self.all_hotels_names_id} all hotels name are in one list and its compare the hotel taht which user want")
+
 
     def select_fileters(self):
         time.sleep(2)
@@ -90,15 +104,17 @@ class Home_page:
         time.sleep(6)
         self.driver.find_element(By.XPATH, self.views_select_xpath).click()
         time.sleep(2)
+        self.logs.info(f"Element is {self.views_select_xpath} applied the filters")
 
     def handle_windows(self):
         self.windows = self.driver.window_handles
         self.driver.switch_to.window(self.windows[1])
         print(self.driver.title)
+        self.logs.info("Switching the windows")
 
     def book_now_button(self):
         self.driver.find_element(By.CSS_SELECTOR,  self.button_book_now_css).click()
-        time.sleep(2)
+        self.logs.info(f"Element is {self.button_book_now_css} click on book now button")
 
     def enter_guest_details(self):
         self.driver.find_element(By.ID,self.name_id).send_keys("Piyush")
@@ -106,17 +122,22 @@ class Home_page:
         self.driver.find_element(By.ID, self.email_id).send_keys("dravyakar@gmail.com")
         self.driver.find_element(By.ID, self.mobile_no_id).send_keys("8411878794")
         self.driver.find_element(By.CSS_SELECTOR, self.check_box_css).click()
+        self.logs.info("Enter the guest user details name,last name,email and mobile number")
 
 
     def pay_now(self):
         self.driver.find_element(By.CSS_SELECTOR ,self.click_on_pay_now_css).click()
+        self.logs.info(f"Element is {self.click_on_pay_now_css} and click on pay now button")
 
     def compare_dates(self):
         self.all_date = []
-        self.dates = self.driver.find_elements(By.CSS_SELECTOR, "p[class='prptChk__date']")
+        self.dates = self.driver.find_elements(By.CSS_SELECTOR, self.dates_on_pay_now_page_css)
         for self.date in self.dates:
             print(self.date.text)
             self.all_date.append(self.date.text)
+
+        self.logs.info(f"Element is {self.dates_on_pay_now_page_css} and its hold the dates on pay now page")
+
 
 
 

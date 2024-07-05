@@ -2,11 +2,13 @@ import time
 
 from selenium.webdriver.common.by import By
 
+from Utilities.generates_logs import LogGen
 from pages.select_date_city_home_page import Home_page
 
 
 class Test_home_page:
     city_class = "hsw_inputField font16"
+    logs = LogGen.logger()
 
     def test_select_date_city(self,setup):
         self.driver = setup
@@ -25,6 +27,7 @@ class Test_home_page:
         self.home_page.enter_guest_details()
         self.home_page.pay_now()
         self.home_page.compare_dates()
+        self.logs.info("********Assertion Stared******")
         self.hotel_name = self.driver.find_element(By.CSS_SELECTOR,self.home_page.hotel_name_on_pay_page_css)
         assert self.hotel_name.text == "Blanket Hotel & Spa Munnar"
         assert self.home_page.all_date in ["Sun Jul 28 2024", "Wed Jul 31 2024"], "Dates are not match"
