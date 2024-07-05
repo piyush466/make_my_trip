@@ -1,10 +1,7 @@
 import time
-from datetime import datetime
-
 from selenium.webdriver import Keys
 from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
-
 from Utilities.generates_logs import LogGen
 from test_cases import test_data
 
@@ -93,7 +90,7 @@ class Home_page:
             if self.hotel.text == "Blanket Hotel & Spa Munnar":
                 print(self.hotel.text)
                 self.hotel.click()
-                self.logs.info(f"click on search button")
+                self.logs.info("click on search button")
                 break
             else:
                 self.logs.error("Your test case is fail check the screenshot")
@@ -125,7 +122,7 @@ class Home_page:
         if self.driver.title == "Blanket Hotel & Spa Munnar | Hotel Details Page | MakeMyTrip.co":
             self.logs.info("Title is match")
         else:
-            raise Exception
+
             self.logs.error("Title is not match")
         self.logs.info("Switching the windows")
 

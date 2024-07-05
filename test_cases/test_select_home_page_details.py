@@ -1,7 +1,6 @@
 # Import the necessary modules and classes
 # import time
 import time
-
 from selenium.webdriver.common.by import By
 from test_cases import test_data
 from Utilities.generates_logs import LogGen
