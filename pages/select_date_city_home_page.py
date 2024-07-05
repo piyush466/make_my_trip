@@ -122,7 +122,10 @@ class Home_page:
         self.windows = self.driver.window_handles
         print(self.windows)
         self.driver.switch_to.window(self.windows[1])
-        print(self.driver.title)
+        if self.driver.title == "Blanket Hotel & Spa Munnar | Hotel Details Page | MakeMyTrip.co":
+            self.logs.info("Title is match")
+        else:
+            self.logs.error("Title is not match")
         self.logs.info("Switching the windows")
 
     def book_now_button(self):
