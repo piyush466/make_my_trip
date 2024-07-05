@@ -19,7 +19,6 @@ class Test_home_page:
 
         # Click on the hotels tab
         self.home_page.click_hotels()
-
         # Select the city
         self.home_page.city_select(test_data.city)
 
@@ -42,7 +41,7 @@ class Test_home_page:
         self.home_page.select_fileters()
 
         # Get the list of hotel names
-        self.home_page.hotels_names(test_data.hotel_name)
+        self.home_page.hotels_names()
 
         # Handle new windows if any are opened
         self.home_page.handle_windows()

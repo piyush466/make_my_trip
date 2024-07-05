@@ -6,6 +6,7 @@ from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 
 from Utilities.generates_logs import LogGen
+from test_cases import test_data
 
 
 class Home_page:
@@ -82,32 +83,44 @@ class Home_page:
         self.driver.find_element(By.ID,  self.click_search_btn_id).click()
         self.logs.info(f"Element is {self.click_search_btn_id} click on search button")
 
-    def hotels_names(self,hotel_name):
+    def hotels_names(self):
+        self.driver.implicitly_wait(20)
         self.contains_all_hotesl_name = []
         self.hotels = self.driver.find_elements(By.ID, self.all_hotels_names_id)
         for self.hotel in self.hotels:
-            time.sleep(2)
+            time.sleep(1)
             self.contains_all_hotesl_name.append(self.hotel.text)
-            if self.hotel.text == hotel_name:
+            if self.hotel.text == "Blanket Hotel & Spa Munnar":
+                print(self.hotel.text)
                 self.hotel.click()
+                self.logs.info(f"click on search button")
+                break
+            else:
+                self.logs.error("Your test case is fail check the screenshot")
+                self.driver.save_screenshot(test_data.take_screenshot)
+
+
         print(self.contains_all_hotesl_name)
         self.logs.info(f"Elements is {self.all_hotels_names_id} all hotels name are in one list and its compare the hotel taht which user want")
+        time.sleep(2)
 
 
     def select_fileters(self):
         self.driver.implicitly_wait(10)
         self.driver.find_element(By.XPATH,  self.breckfast_xpath).click()
-
+        time.sleep(3)
         self.driver.execute_script("window.scrollBy(0,500)")
-        time.sleep(4)
+        time.sleep(3)
         self.driver.find_element(By.XPATH, self.ratings_xpath).click()
-        time.sleep(6)
+        time.sleep(3)
         self.driver.find_element(By.XPATH, self.views_select_xpath).click()
-        time.sleep(2)
+        time.sleep(3)
         self.logs.info(f"Element is {self.views_select_xpath} applied the filters")
 
     def handle_windows(self):
+        time.sleep(4)
         self.windows = self.driver.window_handles
+        print(self.windows)
         self.driver.switch_to.window(self.windows[1])
         print(self.driver.title)
         self.logs.info("Switching the windows")
