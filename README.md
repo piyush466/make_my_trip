@@ -1,9 +1,17 @@
-# Python Selenium Automation Project
+# 💻 Test Automation Framework |
 
-<img src="C:\Users\ASUS\Downloads\selpython_s6N1DgL.png" alt="Selenium with Python" width="190" height="60">
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions) 
+![Pytest](https://img.shields.io/badge/Pytest-2088FF?style=for-the-badge&logo=PyTest&logoColor=white)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
+![Selenium](https://img.shields.io/badge/Selenium-3.141.59-brightgreen)
+
 ## Overview
 
 This project demonstrates the use of Selenium WebDriver with Python to automate browser interactions for testing web applications. It includes examples of various Selenium functionalities such as navigating web pages, interacting with web elements, handling multiple windows, and generating test reports.
+
+
 
 ## Prerequisites
 
