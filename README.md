@@ -4,7 +4,7 @@
 ![Pytest](https://img.shields.io/badge/Pytest-2088FF?style=for-the-badge&logo=PyTest&logoColor=white)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-3.141.59-brightgreen)
 
 ## Overview
