@@ -43,7 +43,7 @@ class Home_page:
     def __init__(self, driver):
         # Constructor to initialize the driver
         self.driver = driver
-        self.wait = WebDriverWait(driver, 30)
+        self.wait = WebDriverWait(driver, 15)
 
     def click_hotels(self):
         # Click on the Hotels menu
