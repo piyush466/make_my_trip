@@ -1,5 +1,6 @@
 /Users/user/PycharmProjects/Make_my_trip_task/pythonProject/Reports/assets
 
-test_cases/__init__py
+test_cases/__init__.py
 
 .venv
+.idea
