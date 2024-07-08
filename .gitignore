@@ -5,3 +5,4 @@ test_cases/__init__.py
 .venv
 .idea
 
+.env

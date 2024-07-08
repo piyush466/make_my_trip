@@ -1,10 +1,13 @@
 # Guest user details
-import  os
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
 
 name = "Piyush"
 l_name = "Dravyakar"
-email = "piyush@gmal.com"
-mobile_no = "8411878794"
+email = os.getenv("EMAIL")
+mobile_no = os.getenv("MOBILE_NO")
 
 # Search city name
 city = "Munnar"
@@ -13,5 +16,4 @@ city = "Munnar"
 hotel_name = "Blanket Hotel & Spa Munnar"
 
 #Screenshotspath
-
 take_screenshot = r"/Users/user/PycharmProjects/Make_my_trip_task/pythonProject/Screenshots/test1.png"
