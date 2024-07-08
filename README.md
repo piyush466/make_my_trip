@@ -52,25 +52,28 @@ To execute the test cases, use the following command:
 ```bash
 pytest -v -s --html=path/reports.html
 
-Folder Structure
+Folders Structure
 
 seleniumJenkins/
-├── tests/
+├── tests_cases/
 │   ├── test_select_home_page.py
-│   └── ...
+│   └── test_data.py
 ├── pages/
 │   ├── demo.py
-│   ├── home_page.py
+│   ├── validate_to_e_2_e.py
 │   └── ...
 ├── utils/
-│   ├── readProperties.py
+│   ├── generates_logs.py
 │   ├── demo.py
 │   └── ...
 ├── reports/
 │   └── reports.html
-├── requirements.txt
-├── README.md
-└── ...
+├── Logs/
+│   └── generate.html
+├── Screenshots    
+│   └── Reports.html
+└── .gitignore
+
 
 
 
