@@ -33,6 +33,12 @@ jobs:
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html
+
+    - name: Run PyTest
+      run: pytest --html=./pytest-report/report.html --self-contained-html --browser ${{ github.event.inputs.browser }} --headless ${{ github.event.inputs.headless }}
+      env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
     
     - name: Upload test artifacts
       uses: actions/upload-artifact@v2
