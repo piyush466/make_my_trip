@@ -37,7 +37,7 @@ class Test_home_page:
         time.sleep(3)
 
         # Select filters for the hotels
-        self.home_page.select_fileters()
+        self.home_page.select_filters()
 
         # Get the list of hotel names
         self.home_page.hotels_names()
