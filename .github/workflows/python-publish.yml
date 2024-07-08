@@ -40,10 +40,10 @@ jobs:
 #          EMAIL: ${{ secrets.EMAIL }}
 #          MOBILE_NO: ${{ secrets.MOBILE_NO }}
     
-    - name: Upload test artifacts
-      uses: actions/upload-artifact@v2
-      if: ${{ always() }}
-      with:
-          name: test-results
-          path: pytest-report/report.html
-          if-no-files-found: error
+#    - name: Upload test artifacts
+#      uses: actions/upload-artifact@v2
+#      if: ${{ always() }}
+#      with:
+#          name: test-results
+#          path: pytest-report/report.html
+#          if-no-files-found: error
