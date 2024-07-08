@@ -50,4 +50,4 @@ jobs:
       with:
           name: test-results
           path: pytest-report/report.html
-          if-no-files-found:
+          if-no-files-found: error

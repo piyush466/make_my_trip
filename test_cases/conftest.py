@@ -12,8 +12,8 @@ def setup(request):
         driver = webdriver.Chrome()
     elif browser_name == "firefox":
         driver = webdriver.Firefox()
-    elif browser_name == "safari":
-        driver = webdriver.Safari()
+    elif browser_name == "Edge":
+        driver = webdriver.Edge()
     else:
         driver = webdriver.Chrome()
 

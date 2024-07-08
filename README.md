@@ -50,21 +50,21 @@ Before you begin, ensure you have met the following requirements:
 To execute the test cases, use the following command:
 
 ```bash
-pytest --alluredir=./reports
+pytest -v -s --html=path/reports.html
 
 Folder Structure
 
 seleniumJenkins/
 ├── tests/
-│   ├── test_example.py
+│   ├── test_select_home_page.py
 │   └── ...
 ├── pages/
-│   ├── base_page.py
+│   ├── demo.py
 │   ├── home_page.py
 │   └── ...
 ├── utils/
 │   ├── readProperties.py
-│   ├── helpers.py
+│   ├── demo.py
 │   └── ...
 ├── reports/
 │   └── reports.html

@@ -4,7 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 from test_cases import test_data
 from Utilities.generates_logs import LogGen
-from pages.select_date_city_home_page import Home_page
+from pages.validate_to_e_2_e import Home_page
 
 
 class Test_home_page:
