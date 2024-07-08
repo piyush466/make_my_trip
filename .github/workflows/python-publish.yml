@@ -32,7 +32,7 @@ jobs:
         
 
     - name: Run PyTest
-      run: pytest > pytest .\Utilities\demo.py --html=./pytest-report/report.html --self-contained-html
+      run: .\Utilities\demo.py --html=./pytest-report/report.html --self-contained-html
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html --browser ${{ github.event.inputs.browser }} --headless ${{ github.event.inputs.headless }}
