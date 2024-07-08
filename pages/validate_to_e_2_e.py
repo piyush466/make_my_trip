@@ -93,7 +93,7 @@ class Home_page:
 
     def hotels_names(self):
         # Retrieve and handle hotel names from the search results
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(10)
         self.contains_all_hotels_name = []
         self.hotels = self.driver.find_elements(By.ID, self.all_hotels_names_id)
         for self.hotel in self.hotels:
