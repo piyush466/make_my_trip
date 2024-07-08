@@ -71,7 +71,7 @@ class Home_page:
         time.sleep(2)
 
     def select_price_per_night(self):
-        time.sleep(2)
+        self.driver.implicitly_wait(10)
         self.driver.find_element(By.XPATH, self.price_per_night_xpath).click()
         print(self.driver.find_element(By.XPATH, self.price_per_night_xpath).get_attribute("class"))
         self.driver.find_element(By.XPATH, self.select_rent_of_room_xpath).click()
