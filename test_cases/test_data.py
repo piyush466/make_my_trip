@@ -1,13 +1,10 @@
 # Guest user details
-import os
 
-from dotenv import load_dotenv
-load_dotenv()
 
 name = "Piyush"
 l_name = "Dravyakar"
-email = os.getenv("EMAIL")
-mobile_no = os.getenv("MOBILE_NO")
+email = "piyush@gmail.com"
+mobile_no = "8411878794"
 
 # Search city name
 city = "Munnar"
