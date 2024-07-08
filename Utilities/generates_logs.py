@@ -5,7 +5,7 @@ class LogGen:
     @staticmethod
     def logger():
         logg = logging.getLogger(__name__)
-        filehandle = logging.FileHandler(r"C:\Users\ASUS\PycharmProjects\my\make_my_trip\Logs\generate.log")
+        filehandle = logging.FileHandler(r"/Users/user/PycharmProjects/Make_my_trip_task/pythonProject/Logs/generate.log")
         formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
         filehandle.setFormatter(formatter)
