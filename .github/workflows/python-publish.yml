@@ -14,9 +14,6 @@ on:
   push:
     branches: [master]
 
-permissions:
-  contents: read
-
 jobs:
   deploy:
 
@@ -36,7 +33,6 @@ jobs:
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html
-
     
     - name: Upload test artifacts
       uses: actions/upload-artifact@v2
