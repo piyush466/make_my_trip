@@ -22,7 +22,7 @@ class Home_page:
     set_check_out_date = "div[aria-label='Wed Jul 31 2024']"
     apply_button_css = "primaryBtn b"
     apply_button = "[data-cy='HotelSearchWidget_310']"
-    price_per_night_xpath = "//div[@class='hsw_inner']/div[5]/label/span"
+    price_per_night_xpath = "//*[contains(text(),'Price per Night')]"
     select_rent_of_room_xpath = "//li[text()='₹5000+']"
     click_search_btn_id = "hsw_search_button"
     all_hotels_names_id = "hlistpg_hotel_name"
