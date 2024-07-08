@@ -78,7 +78,8 @@ class Home_page:
     def select_price_per_night(self):
         # Select price per night filter
         self.driver.implicitly_wait(10)
-        self.driver.find_element(By.CSS_SELECTOR, self.price_per_night_xpath).click()
+        self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.price_per_night_xpath))).click()
+        # self.driver.find_element(By.CSS_SELECTOR, self.price_per_night_xpath).click()
         # print(self.driver.find_element(By.XPATH, self.price_per_night_xpath).get_attribute("class"))
         self.driver.find_element(By.XPATH, self.select_rent_of_room_xpath).click()
         self.logs.info(f"Element is {self.select_rent_of_room_xpath} select the price per night ")
