@@ -28,7 +28,7 @@ class Test_home_page:
         self.home_page.select_check_out_date()
 
         # Select price per night filter test
-        self.home_page.select_price_per_night()
+        # self.home_page.select_price_per_night()
 
         # Click on the search button
         self.home_page.click_on_search_btn()

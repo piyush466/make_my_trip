@@ -200,3 +200,173 @@
 2024-07-08 17:40:25,987 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
 2024-07-08 17:40:25,987 - Utilities.generates_logs - INFO - ********Assertion Started******
 2024-07-08 17:40:25,987 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:05:58,940 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:05:58,940 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:06:01,767 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:06:01,767 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:06:01,828 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:06:01,828 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:06:03,872 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:06:03,872 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:06:06,959 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:06:06,959 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:06:12,034 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:06:12,034 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:06:27,379 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:06:27,379 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:06:28,409 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:06:28,409 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:06:29,920 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:06:29,920 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:06:29,921 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:06:29,921 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:06:36,104 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:06:36,104 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:06:36,105 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:06:36,105 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:06:36,167 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:06:36,167 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:06:37,617 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:06:37,617 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:06:37,680 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:06:37,680 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:06:37,722 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:06:37,722 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:06:37,722 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:06:37,722 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:06:51,445 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:06:51,445 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:06:54,269 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:06:54,269 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:06:54,333 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:06:54,333 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:06:56,380 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:06:56,380 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:06:59,552 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:06:59,552 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:07:03,799 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:07:03,799 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:07:19,096 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:07:19,096 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:07:20,125 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:07:20,125 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:07:21,589 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:07:21,589 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:07:21,589 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:07:21,589 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:07:27,618 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:07:27,618 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:07:27,618 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:07:27,618 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:07:27,671 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:07:27,671 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:07:29,111 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:07:29,111 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:07:29,176 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:07:29,176 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:07:29,210 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:07:29,210 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:07:29,211 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:07:29,211 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:13:13,739 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:13:13,739 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:13:16,589 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:13:16,589 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:13:16,655 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:13:16,655 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:13:18,707 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:13:18,707 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:13:22,005 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:13:22,005 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:13:25,963 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:13:25,963 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:13:41,262 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:13:41,262 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:13:42,294 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:13:42,294 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:13:43,732 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:13:43,732 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:13:43,732 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:13:43,732 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:13:49,777 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:13:49,777 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:13:49,777 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:13:49,777 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:13:49,823 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:13:49,823 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:13:51,038 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:13:51,038 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:13:51,093 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:13:51,093 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:13:51,121 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:13:51,121 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:13:51,122 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:13:51,122 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:15:51,210 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:15:51,210 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:15:53,961 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:15:53,961 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:15:54,026 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:15:54,026 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:15:56,080 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:15:56,080 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:15:59,377 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:15:59,377 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:16:03,819 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:16:03,819 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:16:19,168 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:16:19,168 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:16:20,197 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:16:20,197 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:16:21,639 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:16:21,639 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:16:21,639 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:16:21,639 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:16:27,662 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:16:27,662 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:16:27,662 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:16:27,662 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:16:27,723 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:16:27,723 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:16:29,143 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:16:29,143 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:16:29,212 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:16:29,212 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:16:29,243 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:16:29,243 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:16:29,244 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:16:29,244 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:17:30,170 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:17:30,170 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 18:17:32,982 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:17:32,982 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 18:17:33,045 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:17:33,045 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 18:17:35,090 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:17:35,090 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 18:17:38,178 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:17:38,178 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 18:17:43,264 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:17:43,264 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 18:17:58,688 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:17:58,688 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 18:17:59,723 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:17:59,723 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 18:18:00,920 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:18:00,920 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 18:18:00,921 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:18:00,921 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 18:18:06,941 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:18:06,941 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 18:18:06,941 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:18:06,941 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 18:18:06,990 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:18:06,990 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 18:18:08,273 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:18:08,273 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 18:18:08,329 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:18:08,329 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 18:18:08,359 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:18:08,359 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 18:18:08,359 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 18:18:08,359 - Utilities.generates_logs - INFO - ********Assertion Started******
