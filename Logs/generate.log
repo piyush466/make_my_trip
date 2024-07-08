@@ -360,3 +360,321 @@
 2024-07-08 15:40:19,199 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
 2024-07-08 15:40:19,199 - Utilities.generates_logs - INFO - ********Assertion Started******
 2024-07-08 15:40:19,199 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 15:49:38,904 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:49:38,904 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:49:39,945 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:49:39,945 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:49:40,056 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:49:40,056 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:49:40,117 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:49:40,117 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:49:40,246 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:49:40,246 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:49:43,058 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:49:43,058 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:50:30,690 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:50:30,690 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:50:31,593 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:50:31,593 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:50:31,676 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:50:31,676 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:50:31,733 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:50:31,733 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:50:31,857 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:50:31,857 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:50:33,947 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:50:33,947 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:53:23,243 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:53:23,243 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:53:24,688 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:53:24,688 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:53:24,779 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:53:24,779 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:53:24,838 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:53:24,838 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:53:24,999 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:53:24,999 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:53:27,649 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:53:27,649 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:54:09,001 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:54:09,001 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:54:09,875 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:54:09,875 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:54:09,940 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:54:09,940 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:54:10,007 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:54:10,007 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:54:10,138 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:54:10,138 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:54:17,657 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:54:17,657 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:55:05,017 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:55:05,017 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:55:05,843 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:55:05,843 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:55:05,925 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:55:05,925 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:55:05,981 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:55:05,981 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:55:06,111 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:55:06,111 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:55:08,337 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:55:08,337 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:55:47,386 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:55:47,386 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:55:48,271 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:55:48,271 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:55:48,342 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:55:48,342 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:55:48,411 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:55:48,411 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:55:48,543 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:55:48,543 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:55:51,266 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:55:51,266 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:57:40,215 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:57:40,215 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:57:41,148 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:57:41,148 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:57:41,227 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:57:41,227 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:57:41,284 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:57:41,284 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:57:41,414 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:57:41,414 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:57:43,506 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:57:43,506 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:58:48,675 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:58:48,675 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 15:58:49,566 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:58:49,566 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 15:58:49,645 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:58:49,645 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 15:58:49,703 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:58:49,703 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 15:58:49,833 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:58:49,833 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 15:58:52,085 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 15:58:52,085 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:00:27,674 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:00:27,674 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:00:28,549 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:00:28,549 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:00:28,629 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:00:28,629 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:00:28,695 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:00:28,695 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:00:28,818 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:00:28,818 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:00:32,425 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:00:32,425 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:02:51,150 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:02:51,150 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:02:52,124 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:02:52,124 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:02:52,214 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:02:52,214 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:02:52,278 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:02:52,278 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:02:52,448 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:02:52,448 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:02:54,833 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:02:54,833 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:04:55,228 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:04:55,228 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:04:56,231 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:04:56,231 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:04:56,341 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:04:56,341 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:04:56,395 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:04:56,395 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:04:56,525 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:04:56,525 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:04:58,588 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:04:58,588 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:05:42,417 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:05:42,417 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:05:43,436 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:05:43,436 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:05:43,524 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:05:43,524 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:05:43,581 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:05:43,581 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:05:43,711 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:05:43,711 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:05:46,153 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:05:46,153 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:05:55,398 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:05:55,398 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:05:56,897 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:56,897 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,049 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,049 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,203 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,203 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,328 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,328 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,463 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,463 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,596 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,596 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,745 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,745 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,881 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:57,881 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:58,012 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:58,012 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:58,148 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:58,148 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:05:58,266 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:05:58,266 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:06:40,636 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:06:40,636 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:06:43,540 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:06:43,540 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:06:43,606 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:06:43,606 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:06:45,652 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:06:45,652 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:06:45,765 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:06:45,765 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:06:50,171 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:06:50,171 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:07:05,582 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:07:05,582 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:07:06,610 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:07:06,610 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:07:07,851 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:07:07,851 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:07:07,851 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:07:07,851 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:07:13,875 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:07:13,875 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:07:13,875 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:07:13,875 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:07:13,926 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:07:13,926 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:07:15,201 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:07:15,201 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:07:15,264 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:07:15,264 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:07:15,296 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:07:15,296 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:07:15,296 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 16:07:15,296 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 16:09:39,881 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:09:39,881 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:09:40,755 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:09:40,755 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:09:40,833 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:09:40,833 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:09:40,887 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:09:40,887 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:09:41,001 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:09:41,001 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:09:45,165 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:09:45,165 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:10:45,638 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:10:45,638 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:10:46,602 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:10:46,602 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:10:46,682 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:10:46,682 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:10:46,735 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:10:46,735 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:10:46,841 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:10:46,841 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:10:51,503 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:10:51,503 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:11:38,012 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:11:38,012 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:11:40,948 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:11:40,948 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:11:40,999 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:11:40,999 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:11:43,051 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:11:43,051 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:11:43,164 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:11:43,164 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:11:48,105 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:11:48,105 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:12:03,525 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:12:03,525 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:12:04,559 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:12:04,559 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:12:05,775 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:12:05,775 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:12:05,775 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:12:05,775 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:12:11,802 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:12:11,802 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:12:11,802 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:12:11,802 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:12:11,855 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:12:11,855 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:12:13,297 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:12:13,297 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:12:13,353 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:12:13,353 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:12:13,384 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:12:13,384 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:12:13,385 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 16:12:13,385 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 16:13:23,854 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:13:23,854 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:13:24,735 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:13:24,735 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:13:24,817 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:13:24,817 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:13:24,872 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:13:24,872 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:13:24,978 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:13:24,978 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:13:29,241 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:13:29,241 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:14:05,731 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:14:05,731 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:14:06,868 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:14:06,868 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and it's selecting the city
+2024-07-08 16:14:06,948 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:14:06,948 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:14:08,995 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:14:08,995 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:14:09,130 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:14:09,130 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:14:13,215 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:14:13,215 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:14:49,009 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:14:49,009 - Utilities.generates_logs - INFO - Element is menu_Hotels and click on Hotel
+2024-07-08 16:14:51,755 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:14:51,755 - Utilities.generates_logs - INFO - Element is //ul[@role="listbox"]//li[1], and its selecting the city
+2024-07-08 16:14:51,812 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:14:51,812 - Utilities.generates_logs - INFO - Element is div[aria-label='Sun Jul 28 2024'] and selecting the check in date
+2024-07-08 16:14:53,857 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:14:53,857 - Utilities.generates_logs - INFO - Element is div[aria-label='Wed Jul 31 2024'] and selecting the check out date
+2024-07-08 16:14:53,969 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:14:53,969 - Utilities.generates_logs - INFO - Element is //li[text()='₹5000+'] select the price per night 
+2024-07-08 16:14:58,228 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:14:58,228 - Utilities.generates_logs - INFO - Element is hsw_search_button click on search button
+2024-07-08 16:15:13,616 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:15:13,616 - Utilities.generates_logs - INFO - Element is //span[text()='Mountain View']//ancestor::span/label applied the filters
+2024-07-08 16:15:14,648 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:15:14,648 - Utilities.generates_logs - ERROR - Your test case is fail check the screenshot
+2024-07-08 16:15:15,862 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:15:15,862 - Utilities.generates_logs - INFO - click on search button
+2024-07-08 16:15:15,863 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:15:15,863 - Utilities.generates_logs - INFO - Elements is hlistpg_hotel_name all hotels name are in one list and its compare the hotel that which user want
+2024-07-08 16:15:21,882 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:15:21,882 - Utilities.generates_logs - ERROR - Title is not match
+2024-07-08 16:15:21,882 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:15:21,882 - Utilities.generates_logs - INFO - Switching the windows
+2024-07-08 16:15:21,927 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:15:21,927 - Utilities.generates_logs - INFO - Element is button[class='appBtn filled large bkngOption__cta  '] click on book now button
+2024-07-08 16:15:23,051 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:15:23,051 - Utilities.generates_logs - INFO - Enter the guest user details name, last name, email and mobile number
+2024-07-08 16:15:23,112 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:15:23,112 - Utilities.generates_logs - INFO - Element is a[class='btnContinuePayment primaryBtn capText  '] and click on pay now button
+2024-07-08 16:15:23,145 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:15:23,145 - Utilities.generates_logs - INFO - Element is p[class='prptChk__date'] and its hold the dates on pay now page
+2024-07-08 16:15:23,145 - Utilities.generates_logs - INFO - ********Assertion Started******
+2024-07-08 16:15:23,145 - Utilities.generates_logs - INFO - ********Assertion Started******

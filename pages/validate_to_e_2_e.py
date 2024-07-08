@@ -5,7 +5,8 @@ from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 from Utilities.generates_logs import LogGen
 from test_cases import test_data
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class Home_page:
     # Logger instance for logging information
@@ -42,12 +43,12 @@ class Home_page:
     def __init__(self, driver):
         # Constructor to initialize the driver
         self.driver = driver
+        self.wait = WebDriverWait(driver, 10)
 
     def click_hotels(self):
         # Click on the Hotels menu
-        self.driver.find_element(By.CLASS_NAME, self.hotel_click_class_name).click()
+        self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, self.hotel_click_class_name))).click()
         self.logs.info(f"Element is {self.hotel_click_class_name} and click on Hotel")
-
     def city_select(self, city):
         # Select a city from the dropdown
         self.driver.find_element(By.ID, self.select_city_id).click()
@@ -141,11 +142,11 @@ class Home_page:
 
     def enter_guest_details(self, name, l_name, email, mobile_no):
         # Enter guest details for booking
-        self.driver.find_element(By.ID, self.name_id).send_keys(name)
-        self.driver.find_element(By.ID, self.l_name_id).send_keys(l_name)
-        self.driver.find_element(By.ID, self.email_id).send_keys(email)
-        self.driver.find_element(By.ID, self.mobile_no_id).send_keys(mobile_no)
-        self.driver.find_element(By.CSS_SELECTOR, self.check_box_css).click()
+        self.wait.until(EC.visibility_of_element_located((By.ID, self.name_id))).send_keys(name)
+        self.wait.until(EC.visibility_of_element_located((By.ID, self.l_name_id))).send_keys(l_name)
+        self.wait.until(EC.visibility_of_element_located((By.ID, self.email_id))).send_keys(email)
+        self.wait.until(EC.visibility_of_element_located((By.ID, self.mobile_no_id))).send_keys(mobile_no)
+        self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, self.check_box_css))).click()
         self.logs.info("Enter the guest user details name, last name, email and mobile number")
 
     def pay_now(self):
