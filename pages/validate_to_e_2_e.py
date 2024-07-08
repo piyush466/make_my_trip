@@ -22,7 +22,7 @@ class Home_page:
     set_check_out_date = "div[aria-label='Wed Jul 31 2024']"
     apply_button_css = "primaryBtn b"
     apply_button = "[data-cy='HotelSearchWidget_310']"
-    price_per_night_xpath = "div[class*='travelFor'] input"
+    price_per_night_xpath = "//div[@class='hsw_inner']/div[5]/label/span"
     select_rent_of_room_xpath = "//li[text()='₹5000+']"
     click_search_btn_id = "hsw_search_button"
     all_hotels_names_id = "hlistpg_hotel_name"
@@ -78,9 +78,8 @@ class Home_page:
     def select_price_per_night(self):
         # Select price per night filter
         self.driver.implicitly_wait(10)
-        self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.price_per_night_xpath))).click()
-        # self.driver.find_element(By.CSS_SELECTOR, self.price_per_night_xpath).click()
-        # print(self.driver.find_element(By.XPATH, self.price_per_night_xpath).get_attribute("class"))
+        self.wait.until(EC.visibility_of_element_located((By.XPATH, self.price_per_night_xpath))).click()
+        # self.driver.find_element(By.XPATH, self.price_per_night_xpath).click()
         self.driver.find_element(By.XPATH, self.select_rent_of_room_xpath).click()
         self.logs.info(f"Element is {self.select_rent_of_room_xpath} select the price per night ")
         time.sleep(2)
