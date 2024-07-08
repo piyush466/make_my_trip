@@ -3,13 +3,13 @@
 import time
 from selenium.webdriver.common.by import By
 from test_cases import test_data
-# from Utilities.generates_logs import LogGen
+from Utilities.generates_logs import LogGen
 from pages.validate_to_e_2_e import Home_page
 
 
 class Test_home_page:
     city_class = "hsw_inputField font16"
-    # logs = LogGen.logger()
+    logs = LogGen.logger()
 
     def test_select_date_city(self, setup):
         # Initialize the driver and home page object
@@ -58,7 +58,7 @@ class Test_home_page:
         self.home_page.compare_dates()
 
         # Log that the assertion is starting
-        # self.logs.info("********Assertion Started******")
+        self.logs.info("********Assertion Started******")
 
         # Find the hotel name element on the payment page
         self.hotel_name = self.driver.find_element(By.CSS_SELECTOR, self.home_page.hotel_name_on_pay_page_css)
