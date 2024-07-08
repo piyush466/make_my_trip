@@ -13,4 +13,4 @@ hotel_name = "Blanket Hotel & Spa Munnar"
 
 #Screenshotspath
 
-take_screenshot = r"/Users/user/PycharmProjects/Make_my_trip_task/pythonProject/Screenshots/test1.png"
+take_screenshot = r"test1.png"
