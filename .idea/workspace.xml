@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e7489bd-2ac8-422b-baa3-6ee7062ab725" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,9 @@
     &quot;accountId&quot;: &quot;9ba3b315-5dd7-4a7f-a54d-59cffe7f2239&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -43,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for d.TestDateFormatting.test_date_format.executor": "Run",
-    "Python tests.Python tests for df.TestDateFormatting.test_date_format.executor": "Run",
-    "Python tests.Python tests for test_d.TestDateFormatting.test_date_format.executor": "Run",
-    "Python tests.Python tests for test_select_home_page_details.Test_home_page.test_select_date_city.executor": "Run",
-    "Python tests.Python tests in test_select_home_page_details.py.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.df.executor": "Run",
-    "Python.test_select_home_page_details.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ASUS/PycharmProjects/make_my_trip",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for d.TestDateFormatting.test_date_format.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for df.TestDateFormatting.test_date_format.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_d.TestDateFormatting.test_date_format.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_select_home_page_details.Test_home_page.test_select_date_city.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_select_home_page_details.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.df.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_select_home_page_details.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/PycharmProjects/boat_task&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_select_home_page_details.Test_home_page.test_select_date_city">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />

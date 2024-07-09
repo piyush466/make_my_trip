@@ -32,7 +32,7 @@ jobs:
         
 
     - name: Run PyTest
-      run: .\Utilities\demo.py --html=./pytest-report/report.html --self-contained-html
+      run: pytest --html=./pytest-report/report.html --self-contained-html
 
 #    - name: Run PyTest
 #      run: pytest --html=./pytest-report/report.html --self-contained-html
